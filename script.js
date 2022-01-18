@@ -11,7 +11,7 @@ var $spread = document.getElementById('spread');
 var defaultUsd = 1.3563;
 var defaultPtax = 5.5455;
 var defaultIof = 6.38;
-var defaultSpread = 0;
+var defaultSpread = 4;
 
 function onReceiveData(response, response2) {
     $iof.value = numToStr(defaultIof);
